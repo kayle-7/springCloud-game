@@ -1,0 +1,15 @@
+[2019/02/26 00:05:06,466 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-25{2} - 
+【操作日志】
+【请求方法】:ProcessInstance com.springboot.workflow.server.WorkflowService.startWorkflow(String,String,Map)
+【输入参数】:["expenseAccount","expense_1",{"draftOwner":"101:唐僧"}]
+[2019/02/26 00:05:06,702 INFO ] [main] com.springboot.workflow.server.WorkflowService:startWorkflow-144{2} - start workflow success.
+[2019/02/26 00:06:01,397 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-25{2} - 
+【操作日志】
+【请求方法】:List com.springboot.workflow.server.WorkflowService.getTask(String,String,String)
+【输入参数】:["5001",null,null]
+[2019/02/26 00:06:01,474 INFO ] [main] com.springboot.workflow.server.WorkflowService:getTask-208{2} - get task success.
+[2019/02/26 00:21:09,602 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-25{2} - 
+【操作日志】
+【请求方法】:List com.springboot.workflow.server.WorkflowService.getTask(String,String,String)
+【输入参数】:["5001",null,null]
+[2019/02/26 00:21:09,662 INFO ] [main] com.springboot.workflow.server.WorkflowService:getTask-208{2} - get task success.

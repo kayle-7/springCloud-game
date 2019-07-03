@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="cancelApply" name="印章注销" isExecutable="true">
+    <documentation>印章注销</documentation>
+    <startEvent id="start" name="开始"></startEvent>
+    <userTask id="draft" name="草稿"></userTask>
+    <sequenceFlow id="sid-51420E3B-3BF7-4453-9ABC-64CD66F7E3CD" sourceRef="start" targetRef="draft"></sequenceFlow>
+    <userTask id="related" name="相关审批人审核">
+      <multiInstanceLoopCharacteristics isSequential="false" activiti:collection="relatedOwners" activiti:elementVariable="relatedOwner">
+        <completionCondition>${nrOfCompletedInstances/nrOfInstances  == 1}</completionCondition>
+      </multiInstanceLoopCharacteristics>
+    </userTask>
+    <sequenceFlow id="sid-8DEACBBD-5474-4266-B105-FDA23176BDC6" sourceRef="draft" targetRef="related"></sequenceFlow>
+    <sequenceFlow id="sid-89AA7569-181D-4F91-8F54-D13FA28A64BA" sourceRef="related" targetRef="administration"></sequenceFlow>
+    <userTask id="administration" name="行政审核">
+      <multiInstanceLoopCharacteristics isSequential="false" activiti:collection="administrationOwners" activiti:elementVariable="administrationOwner">
+        <completionCondition>${nrOfCompletedInstances == 1}</completionCondition>
+      </multiInstanceLoopCharacteristics>
+    </userTask>
+    <endEvent id="end" name="结束"></endEvent>
+    <sequenceFlow id="sid-A60E2587-109D-4DDF-821B-5C1E57CA4879" sourceRef="administration" targetRef="end"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_cancelApply">
+    <bpmndi:BPMNPlane bpmnElement="cancelApply" id="BPMNPlane_cancelApply">
+      <bpmndi:BPMNShape bpmnElement="start" id="BPMNShape_start">
+        <omgdc:Bounds height="30.0" width="30.0" x="135.0" y="225.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="draft" id="BPMNShape_draft">
+        <omgdc:Bounds height="80.0" width="100.0" x="210.0" y="200.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="related" id="BPMNShape_related">
+        <omgdc:Bounds height="79.99999999999997" width="99.99999999999994" x="405.00000000000006" y="200.00000000000003"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="administration" id="BPMNShape_administration">
+        <omgdc:Bounds height="79.99999999999997" width="100.0" x="615.0000000000003" y="200.00000000000003"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end" id="BPMNShape_end">
+        <omgdc:Bounds height="28.0" width="28.0" x="821.0" y="226.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="sid-51420E3B-3BF7-4453-9ABC-64CD66F7E3CD" id="BPMNEdge_sid-51420E3B-3BF7-4453-9ABC-64CD66F7E3CD">
+        <omgdi:waypoint x="165.0" y="240.0"></omgdi:waypoint>
+        <omgdi:waypoint x="210.0" y="240.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-A60E2587-109D-4DDF-821B-5C1E57CA4879" id="BPMNEdge_sid-A60E2587-109D-4DDF-821B-5C1E57CA4879">
+        <omgdi:waypoint x="715.0000000000003" y="240.0"></omgdi:waypoint>
+        <omgdi:waypoint x="821.0" y="240.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-89AA7569-181D-4F91-8F54-D13FA28A64BA" id="BPMNEdge_sid-89AA7569-181D-4F91-8F54-D13FA28A64BA">
+        <omgdi:waypoint x="505.0" y="240.0"></omgdi:waypoint>
+        <omgdi:waypoint x="615.0000000000003" y="240.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-8DEACBBD-5474-4266-B105-FDA23176BDC6" id="BPMNEdge_sid-8DEACBBD-5474-4266-B105-FDA23176BDC6">
+        <omgdi:waypoint x="310.0" y="240.0"></omgdi:waypoint>
+        <omgdi:waypoint x="405.00000000000006" y="240.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

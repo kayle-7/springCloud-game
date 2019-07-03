@@ -1,0 +1,295 @@
+2019-03-25 14:38:32.608 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d23017e: startup date [Mon Mar 25 14:38:32 CST 2019]; root of context hierarchy
+2019-03-25 14:38:32.823 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 14:38:32.857 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a960ec3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 14:38:33.008 [main] INFO  com.kayle.server.KayleServerApp - No active profile set, falling back to default profiles: default
+2019-03-25 14:38:33.019 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a078481: startup date [Mon Mar 25 14:38:33 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6d23017e
+2019-03-25 14:38:33.654 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'environmentWebEndpointExtension' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/env/EnvironmentEndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration.class]]
+2019-03-25 14:38:33.913 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3c22ddc0-c136-366b-a51b-29dbfa5d540c
+2019-03-25 14:38:33.932 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 14:38:34.067 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d46e942] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 14:38:34.225 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a960ec3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 14:38:34.506 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18810 (http)
+2019-03-25 14:38:34.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18810"]
+2019-03-25 14:38:34.615 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 14:38:34.615 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-25 14:38:34.620 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/dingzhenxing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-03-25 14:38:34.737 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 14:38:34.738 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1719 ms
+2019-03-25 14:38:35.906 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 14:38:35.910 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 14:38:35.911 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 14:38:35.911 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-25 14:38:35.911 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 14:38:35.911 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-03-25 14:38:35.912 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-03-25 14:38:36.223 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 14:38:36.227 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 14:38:36.370 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 14:38:36.643 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a078481: startup date [Mon Mar 25 14:38:33 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6d23017e
+2019-03-25 14:38:36.702 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getApp]}" onto public com.kayle.contract.ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(com.kayle.contract.app.pojo.AppEntity)
+2019-03-25 14:38:36.705 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-25 14:38:36.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 14:38:36.755 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 14:38:36.755 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 14:38:37.283 [main] INFO  o.s.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a078481: startup date [Mon Mar 25 14:38:33 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6d23017e] and template loader path [classpath:/templates/]
+2019-03-25 14:38:37.284 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-03-25 14:38:37.710 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 14:38:37.723 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 14:38:37.723 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 14:38:37.724 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 14:38:37.794 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-25 14:38:37.795 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-25 14:38:37.805 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-03-25 14:38:37.805 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-03-25 14:38:37.807 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-03-25 14:38:37.809 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-03-25 14:38:37.816 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-03-25 14:38:37.826 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6a078481,type=ConfigurationPropertiesRebinder]
+2019-03-25 14:38:37.832 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-03-25 14:38:37.838 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-03-25 14:38:37.845 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-03-25 14:38:37.879 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-03-25 14:38:38.067 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-25 14:38:38.067 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-25 14:38:38.163 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-25 14:38:38.163 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-25 14:38:38.403 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-25 14:38:38.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-03-25 14:38:38.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-03-25 14:38:38.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-03-25 14:38:38.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-03-25 14:38:38.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-03-25 14:38:38.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-03-25 14:38:38.418 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-03-25 14:38:38.588 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-03-25 14:38:38.590 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 1
+2019-03-25 14:38:38.592 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 14:38:38.596 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553495918595 with initial instances count: 1
+2019-03-25 14:38:38.607 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application kayle-server with eureka with status UP
+2019-03-25 14:38:38.608 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553495918608, current=UP, previous=STARTING]
+2019-03-25 14:38:38.611 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810: registering service...
+2019-03-25 14:38:38.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18810"]
+2019-03-25 14:38:38.654 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 14:38:38.657 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810 - registration status: 204
+2019-03-25 14:38:38.668 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18810 (http) with context path ''
+2019-03-25 14:38:38.669 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 18810
+2019-03-25 14:38:38.671 [main] INFO  com.kayle.server.KayleServerApp - Started KayleServerApp in 6.726 seconds (JVM running for 7.362)
+2019-03-25 14:38:39.000 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-25 14:38:39.000 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-25 14:38:39.000 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-03-25 14:38:39.022 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-03-25 14:38:39.346 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-03-25 14:40:23.916 [http-nio-18810-exec-1] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 14:40:24.024 [http-nio-18810-exec-1] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 14:40:29.754 [http-nio-18810-exec-3] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 14:40:29.757 [http-nio-18810-exec-3] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 14:40:31.892 [http-nio-18810-exec-4] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 14:40:31.896 [http-nio-18810-exec-4] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 14:40:46.110 [Thread-22] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a078481: startup date [Mon Mar 25 14:38:33 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6d23017e
+2019-03-25 14:40:46.112 [Thread-22] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application kayle-server with eureka with status DOWN
+2019-03-25 14:40:46.113 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810: registering service...
+2019-03-25 14:40:46.115 [Thread-22] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-25 14:40:46.116 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.http.impl.client.DefaultHttpClient - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8100: Broken pipe (Write failed)
+2019-03-25 14:40:46.116 [DiscoveryClient-InstanceInfoReplicator-0] INFO  org.apache.http.impl.client.DefaultHttpClient - Retrying request to {}->http://localhost:8100
+2019-03-25 14:40:46.117 [Thread-22] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-25 14:40:46.118 [Thread-22] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-25 14:40:46.120 [Thread-22] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-25 14:40:46.121 [Thread-22] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-03-25 14:40:46.167 [Thread-22] INFO  org.apache.http.impl.client.DefaultHttpClient - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8100: Connection reset
+2019-03-25 14:40:46.168 [Thread-22] INFO  org.apache.http.impl.client.DefaultHttpClient - Retrying request to {}->http://localhost:8100
+2019-03-25 14:40:46.178 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #2
+2019-03-25 14:40:46.178 [Thread-22] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #2
+2019-03-25 14:40:46.178 [Thread-22] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810 - deregister  status: 200
+2019-03-25 14:40:46.178 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810 - registration status: 204
+2019-03-25 14:40:46.187 [Thread-22] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-25 14:40:46.188 [Thread-22] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-03-25 14:40:46.199 [Thread-22] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-03-25 15:05:39.668 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@67304a40: startup date [Mon Mar 25 15:05:39 CST 2019]; root of context hierarchy
+2019-03-25 15:05:39.922 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 15:05:39.955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7578b9cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 15:05:40.112 [main] INFO  com.kayle.server.KayleServerApp - No active profile set, falling back to default profiles: default
+2019-03-25 15:05:40.124 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6594402a: startup date [Mon Mar 25 15:05:40 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@67304a40
+2019-03-25 15:05:40.782 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'environmentWebEndpointExtension' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/env/EnvironmentEndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration.class]]
+2019-03-25 15:05:41.050 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3c22ddc0-c136-366b-a51b-29dbfa5d540c
+2019-03-25 15:05:41.067 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 15:05:41.237 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$595eb6ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 15:05:41.421 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7578b9cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 15:05:41.740 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18810 (http)
+2019-03-25 15:05:41.845 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18810"]
+2019-03-25 15:05:41.857 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 15:05:41.857 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-25 15:05:41.863 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/dingzhenxing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-03-25 15:05:41.981 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 15:05:41.981 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1857 ms
+2019-03-25 15:05:43.780 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 15:05:43.786 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 15:05:43.787 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 15:05:43.787 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-25 15:05:43.788 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 15:05:43.788 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-03-25 15:05:43.788 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-03-25 15:05:44.216 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 15:05:44.221 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 15:05:44.411 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:05:44.737 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6594402a: startup date [Mon Mar 25 15:05:40 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@67304a40
+2019-03-25 15:05:44.805 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getApp]}" onto public com.kayle.contract.ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(com.kayle.contract.app.pojo.AppEntity)
+2019-03-25 15:05:44.809 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-25 15:05:44.810 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 15:05:44.863 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:05:44.863 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:05:45.436 [main] INFO  o.s.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6594402a: startup date [Mon Mar 25 15:05:40 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@67304a40] and template loader path [classpath:/templates/]
+2019-03-25 15:05:45.437 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-03-25 15:05:45.871 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 15:05:45.888 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 15:05:45.889 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 15:05:45.889 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 15:05:46.004 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-25 15:05:46.007 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-25 15:05:46.018 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-03-25 15:05:46.019 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-03-25 15:05:46.021 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-03-25 15:05:46.023 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-03-25 15:05:46.032 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-03-25 15:05:46.043 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6594402a,type=ConfigurationPropertiesRebinder]
+2019-03-25 15:05:46.049 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-03-25 15:05:46.055 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-03-25 15:05:46.062 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-03-25 15:05:46.106 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-03-25 15:05:46.293 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-25 15:05:46.294 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-25 15:05:46.373 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-25 15:05:46.373 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-25 15:05:46.555 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-25 15:05:46.572 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-03-25 15:05:46.572 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-03-25 15:05:46.572 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-03-25 15:05:46.572 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-03-25 15:05:46.573 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-03-25 15:05:46.573 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-03-25 15:05:46.573 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-03-25 15:05:46.770 [main] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-03-25 15:05:46.771 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-03-25 15:05:46.773 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 1
+2019-03-25 15:05:46.775 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 15:05:46.779 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553497546777 with initial instances count: 1
+2019-03-25 15:05:46.790 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application kayle-server with eureka with status UP
+2019-03-25 15:05:46.790 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553497546790, current=UP, previous=STARTING]
+2019-03-25 15:05:46.792 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810: registering service...
+2019-03-25 15:05:46.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18810"]
+2019-03-25 15:05:46.838 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 15:05:46.845 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-03-25 15:05:46.845 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810 - registration status: 204
+2019-03-25 15:05:46.853 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18810 (http) with context path ''
+2019-03-25 15:05:46.854 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 18810
+2019-03-25 15:05:46.858 [main] INFO  com.kayle.server.KayleServerApp - Started KayleServerApp in 7.882 seconds (JVM running for 8.606)
+2019-03-25 15:05:47.053 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-25 15:05:47.053 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-25 15:05:47.054 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-03-25 15:05:47.073 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2019-03-25 15:05:47.358 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-03-25 15:06:27.929 [http-nio-18810-exec-1] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 15:06:28.004 [http-nio-18810-exec-1] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 15:06:49.336 [http-nio-18810-exec-3] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 15:06:49.343 [http-nio-18810-exec-3] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 15:07:06.965 [http-nio-18810-exec-5] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 15:07:06.969 [http-nio-18810-exec-5] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 15:07:22.641 [http-nio-18810-exec-7] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 15:07:22.646 [http-nio-18810-exec-7] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 15:07:23.559 [http-nio-18810-exec-8] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 15:07:23.562 [http-nio-18810-exec-8] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 15:07:24.178 [http-nio-18810-exec-9] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 15:07:24.180 [http-nio-18810-exec-9] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 15:07:24.789 [http-nio-18810-exec-10] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 15:07:24.793 [http-nio-18810-exec-10] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 15:07:25.425 [http-nio-18810-exec-1] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+2019-03-25 15:07:25.431 [http-nio-18810-exec-1] INFO  com.kayle.server.aop.KayleServerAspect - 
+【操作日志】
+【请求方法】:ApiResult com.kayle.server.app.impl.AppServiceImpl.getApp(AppEntity)
+【输入参数】:[{"id":0,"appId":0,"appName":"app","memo":null,"buildTime":null}]
+【返回参数】:{"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":1553356800000},"stackTrace":null}
+2019-03-25 15:07:36.716 [Thread-24] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6594402a: startup date [Mon Mar 25 15:05:40 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@67304a40
+2019-03-25 15:07:36.722 [Thread-24] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application kayle-server with eureka with status DOWN
+2019-03-25 15:07:36.725 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810: registering service...
+2019-03-25 15:07:36.736 [Thread-24] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-25 15:07:36.738 [Thread-24] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-25 15:07:36.739 [Thread-24] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-25 15:07:36.739 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810 - registration status: 204
+2019-03-25 15:07:36.745 [Thread-24] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-25 15:07:36.746 [Thread-24] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-03-25 15:07:36.757 [Thread-24] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_KAYLE-SERVER/10.97.206.63:kayle-server:18810 - deregister  status: 200
+2019-03-25 15:07:36.767 [Thread-24] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-25 15:07:36.768 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-03-25 15:07:36.780 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

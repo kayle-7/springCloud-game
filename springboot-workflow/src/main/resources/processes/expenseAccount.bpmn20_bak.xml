@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="expenseAccount" name="报销单审批" isExecutable="true">
+    <startEvent id="start" name="开始"></startEvent>
+    <userTask id="draft" name="草稿" activiti:assignee="${draftOwner}"></userTask>
+    <sequenceFlow id="sid-7BE7E48A-97CF-4D2D-A47B-D85F212F018F" sourceRef="start" targetRef="draft"></sequenceFlow>
+    <userTask id="bizCheck" name="业务审核">
+      <multiInstanceLoopCharacteristics isSequential="false" activiti:collection="${bizCheckOwners}" activiti:elementVariable="bizCheckOwner">
+        <completionCondition>${nrOfCompletedInstances/nrOfInstances  == 1}</completionCondition>
+      </multiInstanceLoopCharacteristics>
+    </userTask>
+    <sequenceFlow id="sid-E7F7C96A-3B09-4EAD-A3C1-8B5543992F0F" sourceRef="draft" targetRef="bizCheck"></sequenceFlow>
+    <userTask id="finCheck" name="财务审核">
+      <multiInstanceLoopCharacteristics isSequential="false" activiti:collection="${finCheckOwners}" activiti:elementVariable="finCheckOwner">
+        <completionCondition>${nrOfCompletedInstances == 1}</completionCondition>
+      </multiInstanceLoopCharacteristics>
+    </userTask>
+    <endEvent id="end" name="结束"></endEvent>
+    <sequenceFlow id="sid-4E64C694-EFE8-4E1C-9069-71E621225C58" sourceRef="bizCheck" targetRef="finCheck"></sequenceFlow>
+    <sequenceFlow id="sid-D556D90E-50FA-4C68-BCA9-22745BFF820C" sourceRef="finCheck" targetRef="end"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_expenseAccount">
+    <bpmndi:BPMNPlane bpmnElement="expenseAccount" id="BPMNPlane_expenseAccount">
+      <bpmndi:BPMNShape bpmnElement="start" id="BPMNShape_start">
+        <omgdc:Bounds height="30.0" width="30.0" x="60.0" y="205.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="draft" id="BPMNShape_draft">
+        <omgdc:Bounds height="80.0" width="100.0" x="165.0" y="180.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="bizCheck" id="BPMNShape_bizCheck">
+        <omgdc:Bounds height="80.0" width="100.0" x="360.0" y="180.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="finCheck" id="BPMNShape_finCheck">
+        <omgdc:Bounds height="80.0" width="100.0" x="555.0" y="180.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="end" id="BPMNShape_end">
+        <omgdc:Bounds height="28.0" width="28.0" x="720.0" y="206.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="sid-7BE7E48A-97CF-4D2D-A47B-D85F212F018F" id="BPMNEdge_sid-7BE7E48A-97CF-4D2D-A47B-D85F212F018F">
+        <omgdi:waypoint x="90.0" y="220.0"></omgdi:waypoint>
+        <omgdi:waypoint x="165.0" y="220.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-E7F7C96A-3B09-4EAD-A3C1-8B5543992F0F" id="BPMNEdge_sid-E7F7C96A-3B09-4EAD-A3C1-8B5543992F0F">
+        <omgdi:waypoint x="265.0" y="220.0"></omgdi:waypoint>
+        <omgdi:waypoint x="360.0" y="220.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-D556D90E-50FA-4C68-BCA9-22745BFF820C" id="BPMNEdge_sid-D556D90E-50FA-4C68-BCA9-22745BFF820C">
+        <omgdi:waypoint x="655.0" y="220.0"></omgdi:waypoint>
+        <omgdi:waypoint x="720.0" y="220.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-4E64C694-EFE8-4E1C-9069-71E621225C58" id="BPMNEdge_sid-4E64C694-EFE8-4E1C-9069-71E621225C58">
+        <omgdi:waypoint x="460.0" y="220.0"></omgdi:waypoint>
+        <omgdi:waypoint x="555.0" y="220.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

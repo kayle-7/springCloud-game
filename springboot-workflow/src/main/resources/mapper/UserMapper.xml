@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace对应mapper接口的位置
+    spring-mybatis.xml中配置扫描sql的*mapper.xml文件和需要扫描的mappers接口
+-->
+<mapper namespace="com.springboot.workflow.web.dao.UserDao">
+    <resultMap id="userMap" type="com.springboot.workflow.web.pojo.StudentEntity">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+        <result column="sex" property="sex"/>
+    </resultMap>
+
+    <select id="getStudentList" resultType="com.springboot.workflow.web.pojo.StudentEntity" resultMap="userMap">
+        select id, name, sex, age from student
+    </select>
+
+    <insert id="insert" parameterType="com.springboot.workflow.web.pojo.StudentEntity">
+        INSERT INTO student (`name`, sex, age) VALUES ('aatest', '男', 25)
+    </insert>
+
+</mapper>

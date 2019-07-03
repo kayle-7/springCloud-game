@@ -1,0 +1,1 @@
+define(function(require,exports,module){var n=require("common/ui/Radio");module.exports={init:function(){if(!window.addEventListener&&!window.initedCheckbox){var i="input[type=checkbox]";$(document.body).delegate(i,"click",function(){n.match($(this))}),n.match($(i)),window.initedCheckbox=!0}}}});

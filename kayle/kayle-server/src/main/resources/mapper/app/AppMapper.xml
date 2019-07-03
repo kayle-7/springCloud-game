@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace对应mapper接口的位置
+    spring-mybatis.xml中配置扫描sql的*mapper.xml文件和需要扫描的mappers接口
+-->
+<mapper namespace="com.kayle.server.app.dao.AppDao">
+    <resultMap id="appMap" type="com.kayle.contract.app.pojo.AppEntity">
+        <result column="id" property="id" jdbcType="INTEGER"/>
+        <result column="app_id" property="appId" jdbcType="BIGINT"/>
+        <result column="app_name" property="appName" jdbcType="VARCHAR"/>
+        <result column="memo" property="memo" jdbcType="VARCHAR"/>
+        <result column="build_time" property="buildTime" jdbcType="DATE"/>
+    </resultMap>
+
+    <select id="getApp" parameterType="com.kayle.contract.app.pojo.AppEntity"
+            resultType="com.kayle.contract.app.pojo.AppEntity" resultMap="appMap">
+        select id, app_id, app_name, memo, build_time from t_app where app_name like concat('%', #{app.appName}, '%')
+    </select>
+
+    <insert id="insertApp" parameterType="com.kayle.contract.app.pojo.AppEntity">
+        INSERT INTO t_app (app_id, app_name, memo) VALUES (#{appId}, #{appName}, #{memo})
+    </insert>
+
+</mapper>

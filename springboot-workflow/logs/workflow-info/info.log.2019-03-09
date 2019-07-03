@@ -1,0 +1,68 @@
+[2019/03/09 21:56:57,545 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-49c"}]
+[2019/03/09 21:56:57,943 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:methodAfterReturing-31{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【返回参数】:{"applicationId":null,"definitionCode":"expenseAccount","definitionVersion":0,"instanceId":17501,"status":"Running","beforeActivities":["start"],"doneTasks":[],"currentActivities":["draft"],"todoTasks":[{"taskId":17515,"activity":"draft","name":"草稿","status":"Claimed","owner":{"id":"101","name":"唐僧"},"priority":50,"taskCreateTime":1552139817869}]}
+[2019/03/09 23:31:04,198 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-8rf"}]
+[2019/03/09 23:31:04,547 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:methodAfterReturing-31{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【返回参数】:{"applicationId":null,"definitionCode":"expenseAccount","definitionVersion":0,"instanceId":20001,"status":"Running","beforeActivities":["start"],"doneTasks":[],"currentActivities":["draft"],"todoTasks":[{"taskId":20015,"activity":"draft","name":"草稿","status":"Claimed","owner":{"id":"101","name":"唐僧"},"priority":50,"taskCreateTime":1552145464480}]}
+[2019/03/09 23:39:19,420 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-c5m"}]
+[2019/03/09 23:39:19,672 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:methodAfterReturing-31{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【返回参数】:{"applicationId":null,"definitionCode":"expenseAccount","definitionVersion":0,"instanceId":22501,"status":"Running","beforeActivities":["start"],"doneTasks":[],"currentActivities":["draft"],"todoTasks":[{"taskId":22515,"activity":"draft","name":"草稿","status":"Claimed","owner":{"id":"101","name":"唐僧"},"priority":50,"taskCreateTime":1552145959614}]}
+[2019/03/09 23:41:55,791 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-jh2"}]
+[2019/03/09 23:41:56,094 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:methodAfterReturing-31{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【返回参数】:{"applicationId":null,"definitionCode":"expenseAccount","definitionVersion":0,"instanceId":27501,"status":"Running","beforeActivities":["start"],"doneTasks":[],"currentActivities":["draft"],"todoTasks":[{"taskId":27515,"activity":"draft","name":"草稿","status":"Claimed","owner":{"id":"101","name":"唐僧"},"priority":50,"taskCreateTime":1552146116037}]}
+[2019/03/09 23:46:45,682 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-3rn"}]
+[2019/03/09 23:46:46,024 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:methodAfterReturing-31{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【返回参数】:{"applicationId":null,"definitionCode":"expenseAccount","definitionVersion":0,"instanceId":30001,"status":"Running","beforeActivities":["start"],"doneTasks":[],"currentActivities":["draft"],"todoTasks":[{"taskId":30015,"activity":"draft","name":"草稿","status":"Claimed","owner":{"id":"101","name":"唐僧"},"priority":50,"taskCreateTime":1552146405959}]}
+[2019/03/09 23:50:14,262 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-9je"}]
+[2019/03/09 23:51:28,838 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-7i3"}]
+[2019/03/09 23:51:29,045 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:methodAfterReturing-31{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【返回参数】:{"applicationId":null,"definitionCode":"expenseAccount","definitionVersion":0,"instanceId":1552146688980,"status":"Running","beforeActivities":["start"],"doneTasks":[],"currentActivities":["draft"],"todoTasks":[{"taskId":1552146688992,"activity":"draft","name":"草稿","status":"Claimed","owner":{"id":"101","name":"唐僧"},"priority":50,"taskCreateTime":1552146688989}]}
+[2019/03/09 23:56:33,542 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-vyj"}]
+[2019/03/09 23:56:33,834 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:methodAfterReturing-31{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【返回参数】:{"applicationId":null,"definitionCode":"expenseAccount","definitionVersion":0,"instanceId":32501,"status":"Running","beforeActivities":["start"],"doneTasks":[],"currentActivities":["draft"],"todoTasks":[{"taskId":32515,"activity":"draft","name":"草稿","status":"Claimed","owner":{"id":"101","name":"唐僧"},"priority":50,"taskCreateTime":1552146993773}]}
+[2019/03/09 23:58:48,963 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowLogBefore-23{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":0,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-qsc"}]
+[2019/03/09 23:59:13,345 INFO ] [main] com.springboot.workflow.aop.WorkflowLogAspect:methodAfterReturing-31{2} - 
+【操作日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【返回参数】:{"applicationId":null,"definitionCode":"expenseAccount","definitionVersion":0,"instanceId":1552147129131,"status":"Running","beforeActivities":["start"],"doneTasks":[],"currentActivities":["draft"],"todoTasks":[{"taskId":1552147153256,"activity":"draft","name":"草稿","status":"Claimed","owner":{"id":"101","name":"唐僧"},"priority":50,"taskCreateTime":1552147153246}]}

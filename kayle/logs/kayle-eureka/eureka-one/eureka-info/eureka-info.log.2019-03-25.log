@@ -1,0 +1,356 @@
+2019-03-25 14:37:37.328 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7dda48d9: startup date [Mon Mar 25 14:37:37 CST 2019]; root of context hierarchy
+2019-03-25 14:37:37.552 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 14:37:37.584 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e468f438] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 14:37:37.720 [main] INFO  com.kayle.eureka.server.EurekaOneApp - No active profile set, falling back to default profiles: default
+2019-03-25 14:37:37.732 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@285f09de: startup date [Mon Mar 25 14:37:37 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7dda48d9
+2019-03-25 14:37:38.372 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'environmentWebEndpointExtension' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/env/EnvironmentEndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration.class]]
+2019-03-25 14:37:38.633 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6846c5c3-b97a-37a0-914a-c203616142d2
+2019-03-25 14:37:38.650 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 14:37:38.751 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e468f438] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 14:37:39.024 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+2019-03-25 14:37:39.039 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+2019-03-25 14:37:39.050 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 14:37:39.050 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-25 14:37:39.055 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/dingzhenxing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-03-25 14:37:39.151 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 14:37:39.152 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1420 ms
+2019-03-25 14:37:40.458 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 14:37:40.459 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 14:37:40.459 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-25 14:37:40.459 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 14:37:40.459 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-03-25 14:37:40.460 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-03-25 14:37:40.460 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2019-03-25 14:37:40.460 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 14:37:40.559 [localhost-startStop-1] INFO  c.s.j.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-25 14:37:40.665 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-25 14:37:40.666 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-25 14:37:40.804 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-25 14:37:40.804 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-25 14:37:41.403 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 14:37:41.410 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 14:37:41.552 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 14:37:41.799 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@285f09de: startup date [Mon Mar 25 14:37:37 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7dda48d9
+2019-03-25 14:37:41.880 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-25 14:37:41.882 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 14:37:41.891 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-03-25 14:37:41.891 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-03-25 14:37:41.921 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 14:37:41.921 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 14:37:42.354 [main] INFO  o.s.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@285f09de: startup date [Mon Mar 25 14:37:37 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7dda48d9] and template loader path [classpath:/templates/]
+2019-03-25 14:37:42.355 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-03-25 14:37:42.582 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-03-25 14:37:42.631 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-03-25 14:37:42.823 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-25 14:37:42.823 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-25 14:37:42.823 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-25 14:37:42.823 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-25 14:37:42.979 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-25 14:37:42.998 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-03-25 14:37:43.000 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 14:37:43.004 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553495863003 with initial instances count: 0
+2019-03-25 14:37:43.053 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-03-25 14:37:43.063 [main] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-03-25 14:37:43.064 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-03-25 14:37:43.087 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 14:37:43.187 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 14:37:43.187 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 14:37:43.188 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 14:37:43.241 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-25 14:37:43.252 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-03-25 14:37:43.253 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-03-25 14:37:43.255 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-03-25 14:37:43.257 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-03-25 14:37:43.265 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-03-25 14:37:43.275 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=285f09de,type=ConfigurationPropertiesRebinder]
+2019-03-25 14:37:43.284 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-03-25 14:37:43.284 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application springCloud-game-eureka-server with eureka with status UP
+2019-03-25 14:37:43.285 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553495863285, current=UP, previous=STARTING]
+2019-03-25 14:37:43.287 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000: registering service...
+2019-03-25 14:37:43.290 [Thread-26] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Setting the eureka configuration..
+2019-03-25 14:37:43.290 [Thread-26] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-25 14:37:43.291 [Thread-26] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-25 14:37:43.304 [Thread-26] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - isAws returned false
+2019-03-25 14:37:43.304 [Thread-26] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Initialized server context
+2019-03-25 14:37:43.305 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+2019-03-25 14:37:43.329 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 14:37:43.347 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+2019-03-25 14:37:43.348 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8000
+2019-03-25 14:37:43.351 [main] INFO  com.kayle.eureka.server.EurekaOneApp - Started EurekaOneApp in 6.572 seconds (JVM running for 7.294)
+2019-03-25 14:37:43.402 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-25 14:37:43.402 [RMI TCP Connection(6)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-25 14:37:43.423 [RMI TCP Connection(6)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2019-03-25 14:37:43.569 [http-nio-8000-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 with status UP (replication=false)
+2019-03-25 14:37:43.588 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-03-25 14:37:43.588 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - registration status: 204
+2019-03-25 14:38:54.272 [http-nio-8000-exec-7] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-ZUUL/10.97.206.63:kayle-zuul:801 with status UP (replication=false)
+2019-03-25 14:39:43.313 [Thread-26] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-03-25 14:39:43.317 [Thread-26] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-03-25 14:39:43.319 [Thread-26] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-03-25 14:39:43.329 [Thread-26] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-03-25 14:39:45.322 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:39:47.327 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-03-25 14:39:49.328 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:39:51.328 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:39:53.330 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-25 14:39:55.330 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:39:56.872 [http-nio-8000-exec-3] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-ZUUL/10.97.206.63:kayle-zuul:801 with status DOWN (replication=false)
+2019-03-25 14:39:56.913 [http-nio-8000-exec-4] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance KAYLE-ZUUL/10.97.206.63:kayle-zuul:801 (replication=false)
+2019-03-25 14:39:57.335 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-25 14:39:59.336 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-03-25 14:40:01.339 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-25 14:40:03.343 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-25 14:40:05.347 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-25 14:40:07.347 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:40:09.349 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-03-25 14:40:11.354 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-25 14:40:13.354 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:40:15.358 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-25 14:40:17.358 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:40:19.363 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-25 14:40:21.363 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:40:23.363 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:40:25.367 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-25 14:40:27.370 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-25 14:40:29.371 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:40:31.373 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-25 14:40:33.374 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:40:35.383 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 4ms
+2019-03-25 14:40:37.382 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-03-25 14:40:39.384 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-03-25 14:40:41.384 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 14:40:43.385 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-03-25 14:40:45.390 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-03-25 14:40:46.176 [http-nio-8000-exec-10] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-SERVER/10.97.206.63:kayle-server:18810 with status DOWN (replication=false)
+2019-03-25 14:40:46.176 [http-nio-8000-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-WEB/10.97.206.63:kayle-web:18800 with status DOWN (replication=false)
+2019-03-25 14:40:46.177 [http-nio-8000-exec-2] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance KAYLE-SERVER/10.97.206.63:kayle-server:18810 (replication=false)
+2019-03-25 14:40:46.203 [http-nio-8000-exec-6] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance KAYLE-WEB/10.97.206.63:kayle-web:18800 (replication=false)
+2019-03-25 14:40:46.208 [Thread-28] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@285f09de: startup date [Mon Mar 25 14:37:37 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7dda48d9
+2019-03-25 14:40:46.210 [Thread-28] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application springCloud-game-eureka-server with eureka with status DOWN
+2019-03-25 14:40:46.211 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000: registering service...
+2019-03-25 14:40:46.213 [Thread-28] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-25 14:40:46.215 [Thread-28] INFO  com.netflix.eureka.DefaultEurekaServerContext - Shutting down ...
+2019-03-25 14:40:46.217 [Thread-28] INFO  com.netflix.eureka.DefaultEurekaServerContext - Shut down
+2019-03-25 14:40:46.219 [http-nio-8000-exec-5] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 with status DOWN (replication=false)
+2019-03-25 14:40:46.220 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - registration status: 204
+2019-03-25 14:40:46.220 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-25 14:40:46.221 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-25 14:40:46.225 [Thread-28] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-25 14:40:46.226 [Thread-28] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-03-25 14:40:46.234 [http-nio-8000-exec-8] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 (replication=false)
+2019-03-25 14:40:46.236 [Thread-28] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - deregister  status: 200
+2019-03-25 14:40:46.244 [Thread-28] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-25 15:05:31.886 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@46268f08: startup date [Mon Mar 25 15:05:31 CST 2019]; root of context hierarchy
+2019-03-25 15:05:32.153 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 15:05:32.198 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c8c4c47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 15:05:32.364 [main] INFO  com.kayle.eureka.server.EurekaOneApp - No active profile set, falling back to default profiles: default
+2019-03-25 15:05:32.378 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bb9efbc: startup date [Mon Mar 25 15:05:32 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@46268f08
+2019-03-25 15:05:33.021 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'environmentWebEndpointExtension' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/env/EnvironmentEndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration.class]]
+2019-03-25 15:05:33.252 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6846c5c3-b97a-37a0-914a-c203616142d2
+2019-03-25 15:05:33.268 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 15:05:33.359 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c8c4c47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 15:05:33.633 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+2019-03-25 15:05:33.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+2019-03-25 15:05:33.684 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 15:05:33.684 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-25 15:05:33.687 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/dingzhenxing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-03-25 15:05:33.787 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 15:05:33.787 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1409 ms
+2019-03-25 15:05:34.872 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 15:05:34.873 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 15:05:34.873 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-25 15:05:34.873 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 15:05:34.873 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-03-25 15:05:34.873 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-03-25 15:05:34.873 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2019-03-25 15:05:34.873 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 15:05:34.969 [localhost-startStop-1] INFO  c.s.j.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-25 15:05:35.095 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-25 15:05:35.097 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-25 15:05:35.188 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-25 15:05:35.188 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-25 15:05:35.518 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 15:05:35.523 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 15:05:35.643 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:05:35.859 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bb9efbc: startup date [Mon Mar 25 15:05:32 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@46268f08
+2019-03-25 15:05:35.929 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-25 15:05:35.930 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 15:05:35.935 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-03-25 15:05:35.935 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-03-25 15:05:35.965 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:05:35.965 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:05:36.439 [main] INFO  o.s.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bb9efbc: startup date [Mon Mar 25 15:05:32 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@46268f08] and template loader path [classpath:/templates/]
+2019-03-25 15:05:36.441 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-03-25 15:05:36.640 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-03-25 15:05:36.688 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-03-25 15:05:36.861 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-25 15:05:36.861 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-25 15:05:36.861 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-25 15:05:36.861 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-25 15:05:36.998 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-25 15:05:37.024 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-03-25 15:05:37.028 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 15:05:37.032 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553497537030 with initial instances count: 0
+2019-03-25 15:05:37.087 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-03-25 15:05:37.096 [main] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-03-25 15:05:37.097 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-03-25 15:05:37.114 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 15:05:37.130 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 15:05:37.131 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 15:05:37.132 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 15:05:37.205 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-25 15:05:37.219 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-03-25 15:05:37.220 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-03-25 15:05:37.222 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-03-25 15:05:37.224 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-03-25 15:05:37.237 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-03-25 15:05:37.249 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3bb9efbc,type=ConfigurationPropertiesRebinder]
+2019-03-25 15:05:37.262 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-03-25 15:05:37.262 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application springCloud-game-eureka-server with eureka with status UP
+2019-03-25 15:05:37.263 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553497537263, current=UP, previous=STARTING]
+2019-03-25 15:05:37.266 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000: registering service...
+2019-03-25 15:05:37.270 [Thread-25] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Setting the eureka configuration..
+2019-03-25 15:05:37.270 [Thread-25] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-25 15:05:37.271 [Thread-25] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-25 15:05:37.286 [Thread-25] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - isAws returned false
+2019-03-25 15:05:37.287 [Thread-25] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Initialized server context
+2019-03-25 15:05:37.290 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+2019-03-25 15:05:37.329 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 15:05:37.361 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+2019-03-25 15:05:37.362 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8000
+2019-03-25 15:05:37.366 [main] INFO  com.kayle.eureka.server.EurekaOneApp - Started EurekaOneApp in 6.058 seconds (JVM running for 6.845)
+2019-03-25 15:05:37.481 [http-nio-8000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-25 15:05:37.481 [http-nio-8000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-25 15:05:37.499 [http-nio-8000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2019-03-25 15:05:37.618 [http-nio-8000-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 with status UP (replication=false)
+2019-03-25 15:05:37.639 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-03-25 15:05:37.639 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - registration status: 204
+2019-03-25 15:05:46.843 [http-nio-8000-exec-3] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-SERVER/10.97.206.63:kayle-server:18810 with status UP (replication=false)
+2019-03-25 15:05:49.202 [http-nio-8000-exec-7] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-WEB/10.97.206.63:kayle-web:18800 with status UP (replication=false)
+2019-03-25 15:06:11.488 [http-nio-8000-exec-5] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-ZUUL/10.97.206.63:kayle-zuul:801 with status UP (replication=false)
+2019-03-25 15:07:36.736 [http-nio-8000-exec-8] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-SERVER/10.97.206.63:kayle-server:18810 with status DOWN (replication=false)
+2019-03-25 15:07:36.755 [http-nio-8000-exec-9] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance KAYLE-SERVER/10.97.206.63:kayle-server:18810 (replication=false)
+2019-03-25 15:07:36.779 [http-nio-8000-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance KAYLE-WEB/10.97.206.63:kayle-web:18800 with status DOWN (replication=false)
+2019-03-25 15:07:36.807 [http-nio-8000-exec-2] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance KAYLE-WEB/10.97.206.63:kayle-web:18800 (replication=false)
+2019-03-25 15:07:36.826 [Thread-28] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bb9efbc: startup date [Mon Mar 25 15:05:32 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@46268f08
+2019-03-25 15:07:36.827 [Thread-28] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application springCloud-game-eureka-server with eureka with status DOWN
+2019-03-25 15:07:36.828 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000: registering service...
+2019-03-25 15:07:36.834 [http-nio-8000-exec-4] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 with status DOWN (replication=false)
+2019-03-25 15:07:36.835 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - registration status: 204
+2019-03-25 15:07:36.837 [Thread-28] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-25 15:07:36.838 [Thread-28] INFO  com.netflix.eureka.DefaultEurekaServerContext - Shutting down ...
+2019-03-25 15:07:36.841 [Thread-28] INFO  com.netflix.eureka.DefaultEurekaServerContext - Shut down
+2019-03-25 15:07:36.844 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-25 15:07:36.844 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-25 15:07:36.850 [Thread-28] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-25 15:07:36.851 [Thread-28] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-03-25 15:07:36.855 [http-nio-8000-exec-5] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 (replication=false)
+2019-03-25 15:07:36.856 [Thread-28] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - deregister  status: 200
+2019-03-25 15:07:36.866 [Thread-28] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-03-25 15:08:57.743 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@39fcbef6: startup date [Mon Mar 25 15:08:57 CST 2019]; root of context hierarchy
+2019-03-25 15:08:57.936 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 15:08:57.968 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e2dafa4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 15:08:58.127 [main] INFO  com.kayle.eureka.server.EurekaOneApp - No active profile set, falling back to default profiles: default
+2019-03-25 15:08:58.142 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cefc4b3: startup date [Mon Mar 25 15:08:58 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@39fcbef6
+2019-03-25 15:08:58.682 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'environmentWebEndpointExtension' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/env/EnvironmentEndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration.class]]
+2019-03-25 15:08:58.889 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6846c5c3-b97a-37a0-914a-c203616142d2
+2019-03-25 15:08:58.907 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-25 15:08:58.998 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e2dafa4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 15:08:59.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+2019-03-25 15:08:59.203 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+2019-03-25 15:08:59.211 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-25 15:08:59.211 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-25 15:08:59.215 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/dingzhenxing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-03-25 15:08:59.299 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-25 15:08:59.299 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1157 ms
+2019-03-25 15:09:00.333 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-25 15:09:00.334 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-25 15:09:00.334 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-25 15:09:00.334 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-25 15:09:00.335 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+2019-03-25 15:09:00.335 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-03-25 15:09:00.335 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2019-03-25 15:09:00.335 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-25 15:09:00.401 [localhost-startStop-1] INFO  c.s.j.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-25 15:09:00.468 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-25 15:09:00.469 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-25 15:09:00.578 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-25 15:09:00.578 [localhost-startStop-1] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-25 15:09:00.900 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 15:09:00.904 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 15:09:00.975 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:09:01.159 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cefc4b3: startup date [Mon Mar 25 15:08:58 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@39fcbef6
+2019-03-25 15:09:01.220 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-25 15:09:01.221 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 15:09:01.227 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-03-25 15:09:01.227 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-03-25 15:09:01.250 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:09:01.250 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-25 15:09:01.613 [main] INFO  o.s.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cefc4b3: startup date [Mon Mar 25 15:08:58 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@39fcbef6] and template loader path [classpath:/templates/]
+2019-03-25 15:09:01.614 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-03-25 15:09:01.786 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-03-25 15:09:01.818 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-03-25 15:09:01.977 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-03-25 15:09:01.977 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-03-25 15:09:01.977 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-03-25 15:09:01.977 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-03-25 15:09:02.120 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-03-25 15:09:02.135 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-03-25 15:09:02.137 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-25 15:09:02.142 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553497742141 with initial instances count: 0
+2019-03-25 15:09:02.185 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-03-25 15:09:02.194 [main] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-03-25 15:09:02.195 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-03-25 15:09:02.214 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 15:09:02.228 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 15:09:02.229 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-03-25 15:09:02.229 [main] INFO  o.s.b.a.e.web.servlet.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-25 15:09:02.320 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-25 15:09:02.330 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-03-25 15:09:02.331 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-03-25 15:09:02.333 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-03-25 15:09:02.335 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-03-25 15:09:02.343 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-03-25 15:09:02.353 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1cefc4b3,type=ConfigurationPropertiesRebinder]
+2019-03-25 15:09:02.362 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-03-25 15:09:02.362 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application springCloud-game-eureka-server with eureka with status UP
+2019-03-25 15:09:02.363 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553497742363, current=UP, previous=STARTING]
+2019-03-25 15:09:02.364 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000: registering service...
+2019-03-25 15:09:02.367 [Thread-24] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Setting the eureka configuration..
+2019-03-25 15:09:02.368 [Thread-24] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-25 15:09:02.368 [Thread-24] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-25 15:09:02.377 [Thread-24] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - isAws returned false
+2019-03-25 15:09:02.377 [Thread-24] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Initialized server context
+2019-03-25 15:09:02.381 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+2019-03-25 15:09:02.407 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-25 15:09:02.420 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+2019-03-25 15:09:02.422 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8000
+2019-03-25 15:09:02.424 [main] INFO  com.kayle.eureka.server.EurekaOneApp - Started EurekaOneApp in 5.262 seconds (JVM running for 5.938)
+2019-03-25 15:09:02.493 [http-nio-8000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-25 15:09:02.494 [http-nio-8000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-25 15:09:02.510 [http-nio-8000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019-03-25 15:09:02.598 [http-nio-8000-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 with status UP (replication=false)
+2019-03-25 15:09:02.616 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-03-25 15:09:02.617 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - registration status: 204
+2019-03-25 15:11:02.388 [Thread-24] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-03-25 15:11:02.389 [Thread-24] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-03-25 15:11:02.390 [Thread-24] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-03-25 15:11:02.399 [Thread-24] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-03-25 15:11:04.395 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 15:11:06.396 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 15:11:08.397 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-03-25 15:11:09.163 [Thread-26] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cefc4b3: startup date [Mon Mar 25 15:08:58 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@39fcbef6
+2019-03-25 15:11:09.164 [Thread-26] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application springCloud-game-eureka-server with eureka with status DOWN
+2019-03-25 15:11:09.167 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000: registering service...
+2019-03-25 15:11:09.171 [Thread-26] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-03-25 15:11:09.173 [Thread-26] INFO  com.netflix.eureka.DefaultEurekaServerContext - Shutting down ...
+2019-03-25 15:11:09.183 [Thread-26] INFO  com.netflix.eureka.DefaultEurekaServerContext - Shut down
+2019-03-25 15:11:09.185 [Thread-26] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-25 15:11:09.185 [http-nio-8000-exec-10] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 with status DOWN (replication=false)
+2019-03-25 15:11:09.185 [Thread-26] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-03-25 15:11:09.186 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - registration status: 204
+2019-03-25 15:11:09.187 [Thread-26] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-03-25 15:11:09.188 [Thread-26] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-03-25 15:11:09.193 [http-nio-8000-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Cancelled instance SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 (replication=false)
+2019-03-25 15:11:09.194 [Thread-26] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRINGCLOUD-GAME-EUREKA-SERVER/10.97.206.63:springCloud-game-eureka-server:8000 - deregister  status: 200
+2019-03-25 15:11:09.200 [Thread-26] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

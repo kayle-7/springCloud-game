@@ -1,0 +1,61 @@
+[2019/03/18 19:54:43,740 WARN ] [main] org.springframework.aop.framework.CglibAopProxy:doValidateClass-263{2} - Unable to proxy interface-implementing method [public final boolean com.springboot.workflow.server.impl.WorkflowManagementServiceImpl.deploy(com.springboot.workflow.entity.requests.ProcessDeployRequest) throws com.springboot.workflow.exception.WorkflowException] because it is marked as final: Consider using interface-based JDK proxies instead!
+[2019/03/18 19:56:45,626 WARN ] [main] org.springframework.aop.framework.CglibAopProxy:doValidateClass-263{2} - Unable to proxy interface-implementing method [public final boolean com.springboot.workflow.server.impl.WorkflowManagementServiceImpl.deploy(com.springboot.workflow.entity.requests.ProcessDeployRequest) throws com.springboot.workflow.exception.WorkflowException] because it is marked as final: Consider using interface-based JDK proxies instead!
+[2019/03/18 20:03:39,205 WARN ] [main] org.springframework.aop.framework.CglibAopProxy:doValidateClass-263{2} - Unable to proxy interface-implementing method [public final boolean com.springboot.workflow.server.impl.WorkflowManagementServiceImpl.deploy(com.springboot.workflow.entity.requests.ProcessDeployRequest) throws com.springboot.workflow.exception.WorkflowException] because it is marked as final: Consider using interface-based JDK proxies instead!
+[2019/03/18 20:08:29,702 WARN ] [pool-2-thread-1] com.springboot.workflow.util.guid.SnowflakeIdGenerator:lambda$new$0-47{2} - singleThreadExecutor : SnowflakeIdGenerator change random 0
+[2019/03/18 20:08:29,732 WARN ] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:run-756{2} - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s322ms).
+[2019/03/18 20:20:09,825 WARN ] [main] org.springframework.aop.framework.CglibAopProxy:doValidateClass-263{2} - Unable to proxy interface-implementing method [public final boolean com.springboot.workflow.server.impl.WorkflowManagementServiceImpl.deploy(com.springboot.workflow.entity.requests.ProcessDeployRequest) throws com.springboot.workflow.exception.WorkflowException] because it is marked as final: Consider using interface-based JDK proxies instead!
+[2019/03/18 20:20:11,247 WARN ] [main] com.springboot.workflow.aop.WorkflowLogAspect:workflowAfter-39{2} - 
+【异常日志】
+【请求方法】:ProcessInstanceResult com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(ProcessStartRequest)
+【输入参数】:[{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":2,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-968"}]
+【异常信息】:processDefinition is null.{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":2,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-968"}
+WorkflowException(code=400, message=processDefinition is null.{"definitionCode":"expenseAccount","definitionId":null,"definitionVersion":2,"operator":{"id":"101","name":"唐僧"},"instanceId":0,"conditions":null,"taskOwners":{"finCheck":[{"id":"105","name":"观音"},{"id":"106","name":"如来"}],"bizCheck":[{"id":"102","name":"孙悟空"},{"id":"103","name":"猪八戒"},{"id":"104","name":"沙悟净"}],"draft":[{"id":"101","name":"唐僧"}]},"data":null,"approvalData":null,"businessKey":"expenseAccount-968"}, data=null, stackMessage=null)
+	at com.springboot.workflow.server.AbstractProcessCommonService.initProcessDefinitionId(AbstractProcessCommonService.java:116)
+	at com.springboot.workflow.server.AbstractProcessCommonService.initProcessDefinitionId(AbstractProcessCommonService.java:99)
+	at com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl.start(WorkflowExecuteServiceImpl.java:46)
+	at com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl$$FastClassBySpringCGLIB$$442e240f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.springboot.workflow.server.impl.WorkflowExecuteServiceImpl$$EnhancerBySpringCGLIB$$22de2b2d.start(<generated>)
+	at springCloud.AppTest.start(AppTest.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+[2019/03/18 20:20:31,984 WARN ] [main] org.springframework.aop.framework.CglibAopProxy:doValidateClass-263{2} - Unable to proxy interface-implementing method [public final boolean com.springboot.workflow.server.impl.WorkflowManagementServiceImpl.deploy(com.springboot.workflow.entity.requests.ProcessDeployRequest) throws com.springboot.workflow.exception.WorkflowException] because it is marked as final: Consider using interface-based JDK proxies instead!

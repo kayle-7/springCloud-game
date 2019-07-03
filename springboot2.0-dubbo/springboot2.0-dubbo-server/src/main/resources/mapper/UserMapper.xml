@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace对应mapper接口的位置
+    spring-mybatis.xml中配置扫描sql的*mapper.xml文件和需要扫描的mappers接口
+-->
+<mapper namespace="com.springboot2.dubbo.server.app.dao.UserDao">
+    <resultMap id="userMap" type="com.springboot2.dubbo.api.entity.User">
+        <result column="id" property="id" jdbcType="INTEGER"/>
+        <result column="user_id" property="userId" jdbcType="BIGINT"/>
+        <result column="user_name" property="userName" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <resultMap id="tokenMap" type="com.springboot2.dubbo.api.entity.Token">
+        <result column="id" property="id" jdbcType="INTEGER"/>
+        <result column="token_id" property="tokenId" jdbcType="BIGINT"/>
+        <result column="user_id" property="userId" jdbcType="BIGINT"/>
+        <result column="token" property="token" jdbcType="VARCHAR"/>
+        <result column="buile_time" property="buildTime" jdbcType="DATE"/>
+    </resultMap>
+
+    <select id="getUser" resultType="com.springboot2.dubbo.api.entity.User" resultMap="userMap">
+        select id, user_id, user_name, password from t_user
+    </select>
+
+    <insert id="insertUser" parameterType="com.springboot2.dubbo.api.entity.User">
+        INSERT INTO t_user (user_id, user_name, password) VALUES (#{userId}, #{userName}, #{password})
+    </insert>
+
+</mapper>

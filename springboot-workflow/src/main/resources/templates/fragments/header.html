@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+    <header th:fragment="header"  id="header" class="layout-header">
+        <div class="top-entry">
+            <div class="inner">
+                <a href="javascript:void(0);" class="top-logo"><span>凭证管理系统</span></a>
+                <!--<div class="top-meta" th:if="${user!=null}">-->
+                    <!--<span class="top-meta-item" th:text="${user.deptName}"></span>-->
+                    <!--<div class="top-meta-item">-->
+                        <!--<span class="avatar">-->
+                            <!--<img th:src="@{http://r.hrc.oa.com/photo/150/${user.name}.png}"  alt="head portrait"/>-->
+                        <!--</span>-->
+                        <!--<span th:text="${user.name}"></span>-->
+                    <!--</div>-->
+                    <!--<a href="javascript:void(0);" class="top-meta-item logout">退出登录</a>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <nav class="top-navbar">
+            <div class="inner">
+                <ul class="top-nav">
+                    <li class="nav-item active">
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0);">凭证查询</a>
+                        <ul class="top-nav sub">
+                            <li class="nav-item"><a href="VatShallbe.html">xxxxx</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0);">录入管理</a>
+                        <ul class="top-nav sub">
+                            <li class="nav-item"><a href="/recordInput/vat/vat">增值税抵扣联</a></li>
+                            <li class="nav-item"><a href="/recordInput/vat/blue">增值税蓝票</a></li>
+                            <li class="nav-item"><a href="/recordInput/vat/red">增值税红票</a></li>
+                            <li class="nav-item"><a href="/recordInput/vat/invoice">营业税发票</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0);">入库管理</a>
+                        <ul class="top-nav sub">
+                            <li class="nav-item"><a href="javascript:void(0);">xxxxx</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0);">凭证借阅</a>
+                        <ul class="top-nav sub">
+                            <li class="nav-item"><a href="javascript:void(0);">xxxxx</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0);">移库管理</a>
+                        <ul class="top-nav sub">
+                            <li class="nav-item"><a href="javascript:void(0);">xxxxx</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0);">小借阅</a>
+                        <ul class="top-nav sub">
+                            <li class="nav-item"><a href="javascript:void(0);">xxxxx</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="javascript:void(0);">系统管理</a>
+                        <ul class="top-nav sub">
+                            <li class="nav-item"><a href="/system/OU">OU设置</a></li>
+                            <li class="nav-item"><a href="/system/parameter">参数设置</a></li>
+                            <li class="nav-item"><a href="/system/dictionary">数据字典</a></li>
+                            <li class="nav-item"><a href="/system/archives">档案室设置</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0);">更多</a>
+                        <ul class="top-nav sub">
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">xxxxx</a>
+                                <ul class="top-nav sub">
+                                    <li class="nav-item"><a href="javascript:void(0);">xxxxx</a></li>
+                                    <li class="nav-item"><a href="javascript:void(0);">xxxxx</a></li>
+                                    <li class="nav-item"><a href="javascript:void(0);">xxxxx</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+</body>
+</html>

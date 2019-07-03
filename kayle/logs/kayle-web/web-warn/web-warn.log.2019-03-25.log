@@ -1,0 +1,56 @@
+2019-03-25 14:38:45.739 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-03-25 14:38:46.141 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-03-25 14:40:22.552 [http-nio-18800-exec-1] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 14:40:22.583 [http-nio-18800-exec-1] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 14:40:24.098 [http-nio-18800-exec-1] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 14:40:24.103 [http-nio-18800-exec-1] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 14:40:29.746 [http-nio-18800-exec-2] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 14:40:29.747 [http-nio-18800-exec-2] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 14:40:29.761 [http-nio-18800-exec-2] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 14:40:29.761 [http-nio-18800-exec-2] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 14:40:31.878 [http-nio-18800-exec-4] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 14:40:31.880 [http-nio-18800-exec-4] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 14:40:31.900 [http-nio-18800-exec-4] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 14:40:31.900 [http-nio-18800-exec-4] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 14:40:46.156 [Thread-20] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553496046156, current=DOWN, previous=UP]
+2019-03-25 14:40:46.166 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.client.ClientProtocolException
+2019-03-25 14:40:46.170 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2019-03-25 14:40:46.185 [Thread-20] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-03-25 15:05:46.911 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-03-25 15:05:47.359 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-03-25 15:05:49.022 [main] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2019-03-25 15:05:49.173 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2019-03-25 15:06:26.960 [http-nio-18800-exec-1] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 15:06:26.984 [http-nio-18800-exec-1] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 15:06:28.072 [http-nio-18800-exec-1] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 15:06:28.077 [http-nio-18800-exec-1] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 15:06:49.323 [http-nio-18800-exec-3] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 15:06:49.326 [http-nio-18800-exec-3] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 15:06:49.349 [http-nio-18800-exec-3] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 15:06:49.349 [http-nio-18800-exec-3] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 15:07:06.956 [http-nio-18800-exec-4] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 15:07:06.958 [http-nio-18800-exec-4] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 15:07:06.972 [http-nio-18800-exec-4] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 15:07:06.973 [http-nio-18800-exec-4] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 15:07:22.633 [http-nio-18800-exec-5] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 15:07:22.635 [http-nio-18800-exec-5] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 15:07:22.650 [http-nio-18800-exec-5] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 15:07:22.650 [http-nio-18800-exec-5] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 15:07:23.549 [http-nio-18800-exec-6] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 15:07:23.550 [http-nio-18800-exec-6] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 15:07:23.565 [http-nio-18800-exec-6] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 15:07:23.565 [http-nio-18800-exec-6] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 15:07:24.169 [http-nio-18800-exec-7] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 15:07:24.170 [http-nio-18800-exec-7] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 15:07:24.184 [http-nio-18800-exec-7] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 15:07:24.184 [http-nio-18800-exec-7] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 15:07:24.782 [http-nio-18800-exec-8] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 15:07:24.783 [http-nio-18800-exec-8] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 15:07:24.798 [http-nio-18800-exec-8] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 15:07:24.798 [http-nio-18800-exec-8] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 15:07:25.418 [http-nio-18800-exec-9] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : start!
+2019-03-25 15:07:25.419 [http-nio-18800-exec-9] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : start!
+2019-03-25 15:07:25.435 [http-nio-18800-exec-9] WARN  com.kayle.web.filter.SimpleFilter - ======>  SimpleFilter  doFilter : end!
+2019-03-25 15:07:25.436 [http-nio-18800-exec-9] WARN  com.kayle.web.filter.TokenAuthorFilter - ======>  TokenAuthorFilter  doFilter : end!  responseBody : {"success":true,"code":200,"message":"success","data":{"id":3,"appId":1000000,"appName":"app_test","memo":"t","buildTime":"2019-03-23T16:00:00.000+0000"},"stackTrace":null}
+2019-03-25 15:07:36.773 [Thread-21] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553497656773, current=DOWN, previous=UP]
+2019-03-25 15:07:36.795 [Thread-21] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

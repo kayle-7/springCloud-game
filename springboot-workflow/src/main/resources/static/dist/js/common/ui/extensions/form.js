@@ -1,0 +1,1 @@
+define(function(require,exports,module){require("plugin/jquery"),$.prototype.serializeObject=function(){var e,r,n,a,i;for(e=this.serializeArray(),n=(r={}).hasOwnProperty,a=0;a<e.length;a++)i=e[a],n.call(r,i.name)||(r[i.name]=i.value);return r}});

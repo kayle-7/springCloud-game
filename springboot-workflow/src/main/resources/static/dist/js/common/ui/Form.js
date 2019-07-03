@@ -1,0 +1,1 @@
+define(function(require,exports,module){require("plugin/Validform"),$.fn.validForm=function(i){var n=$(this),t={tiptype:function(i){alert(i)},tipSweep:!0},e=$.extend({},t,i||{});return $.Tipmsg.r=null,n.Validform(e)}});
